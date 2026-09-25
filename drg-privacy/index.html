@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="DRG/DIP 3.0 分组器隐私政策，说明病例输入、网络、本地数据、系统权限和第三方服务处理方式。"
+    >
+    <title>隐私政策 - DRG/DIP 3.0 分组器</title>
+    <link rel="stylesheet" href="../drg-legal.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="https://www.wanshikecheng.xin/" aria-label="返回万事柯成网站首页">
+          <span class="brand__mark" aria-hidden="true">柯</span>
+          <span class="brand__text">
+            <span class="brand__title">DRG/DIP 3.0 分组器</span>
+            <span class="brand__subtitle">离线入组模拟与编码查询</span>
+          </span>
+        </a>
+        <a class="header-link" href="../drg-support/">帮助与支持</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="eyebrow">隐私政策</div>
+        <h1 id="page-title">你的病例输入留在当前设备。</h1>
+        <p class="hero__lead">
+          DRG/DIP 3.0 分组器尊重并保护用户隐私。本政策说明应用如何处理信息、病例输入、病例截图 OCR 导入、本地数据和系统权限。
+        </p>
+        <div class="meta-row">
+          <span>生效日期：2026 年 9 月 24 日</span>
+          <span>适用版本：1.0</span>
+        </div>
+      </section>
+
+      <div class="privacy-list">
+        <section class="privacy-section" aria-labelledby="collection-title">
+          <span class="privacy-section__number" aria-hidden="true">1</span>
+          <div>
+            <h2 id="collection-title">信息收集</h2>
+            <p>
+              应用不要求注册或登录，不收集、上传或共享姓名、手机号、邮箱、账号、位置、通讯录、照片、HealthKit
+              数据或其他个人信息。用户主动选择的病例截图也不会被收集、上传或共享。
+            </p>
+          </div>
+        </section>
+
+        <section class="privacy-section" aria-labelledby="case-input-title">
+          <span class="privacy-section__number" aria-hidden="true">2</span>
+          <div>
+            <h2 id="case-input-title">病例输入</h2>
+            <p>
+              用户输入的诊断、手术、年龄、性别等病例内容只用于当前设备上的实时查询和结果展示。应用不会将输入内容发送到服务器，也不会把查询原文或完整病例保存为病例历史。编码检索页的最近搜索和收藏仅保存实体类型、编码、名称、来源和命中原因。
+            </p>
+            <p>
+              使用病例截图离线 OCR 导入时，只有用户通过系统 PhotosPicker 或 fileImporter
+              主动选择的图片才会被读取。图片只在本机内存中压缩并交给 Apple Vision
+              OCR，不另行保存、不上传，处理结束即释放；原图和 OCR
+              全文不写入文件系统、UserDefaults 或病例历史，识别结果需经用户复核确认。
+            </p>
+          </div>
+        </section>
+
+        <section class="privacy-section" aria-labelledby="network-title">
+          <span class="privacy-section__number" aria-hidden="true">3</span>
+          <div>
+            <h2 id="network-title">网络与第三方服务</h2>
+            <p>
+              应用完全离线运行，不发起业务网络请求，不包含广告、内购、统计或追踪 SDK，不进行跨 App 追踪。
+            </p>
+          </div>
+        </section>
+
+        <section class="privacy-section" aria-labelledby="local-data-title">
+          <span class="privacy-section__number" aria-hidden="true">4</span>
+          <div>
+            <h2 id="local-data-title">本地数据</h2>
+            <p>
+              应用包内包含只读的 DRG/DIP 分组数据库，用于离线查询。最近搜索和收藏使用系统 UserDefaults 保存在本机，不包含查询原文、年龄、性别、患者身份或病例自由文本；可在编码检索页单项删除或清空，卸载应用后随本地数据删除。
+            </p>
+          </div>
+        </section>
+
+        <section class="privacy-section" aria-labelledby="permissions-title">
+          <span class="privacy-section__number" aria-hidden="true">5</span>
+          <div>
+            <h2 id="permissions-title">系统权限</h2>
+            <p>
+              应用不申请定位、麦克风、通讯录、健康数据、追踪或其他敏感系统权限，也不申请相机权限。病例截图
+              OCR 导入不申请完整照片库权限，而是通过系统 PhotosPicker 或
+              fileImporter 由用户主动选择图片；应用仅在用户选定后读取所选图片，用于本机内存中的压缩和
+              Vision OCR。
+            </p>
+          </div>
+        </section>
+
+        <section class="privacy-section" aria-labelledby="children-title">
+          <span class="privacy-section__number" aria-hidden="true">6</span>
+          <div>
+            <h2 id="children-title">儿童隐私</h2>
+            <p>应用不面向儿童提供社交或账号服务，也不收集任何用户信息。</p>
+          </div>
+        </section>
+
+        <section class="privacy-section" aria-labelledby="security-title">
+          <span class="privacy-section__number" aria-hidden="true">7</span>
+          <div>
+            <h2 id="security-title">数据安全</h2>
+            <p>
+              由于应用不传输和收集用户数据，用户输入和用户主动选择的 OCR
+              图片不会离开当前设备。正式发布包使用 Apple 平台提供的签名和分发机制。
+            </p>
+          </div>
+        </section>
+
+        <section class="privacy-section" aria-labelledby="changes-title">
+          <span class="privacy-section__number" aria-hidden="true">8</span>
+          <div>
+            <h2 id="changes-title">政策更新</h2>
+            <p>
+              如未来功能引入联网、账号、统计或数据收集能力，本政策和 App Store 隐私标签将同步更新。
+            </p>
+          </div>
+        </section>
+
+        <section class="privacy-section" aria-labelledby="contact-title">
+          <span class="privacy-section__number" aria-hidden="true">9</span>
+          <div>
+            <h2 id="contact-title">联系方式</h2>
+            <p>隐私问题可通过 App Store 产品页面显示的开发者联系方式提出。</p>
+          </div>
+        </section>
+      </div>
+
+      <aside class="callout">
+        <h2>数据边界</h2>
+        <p>
+          应用中的分组结果只用于查询和规则学习，不替代医院端编码审核、医保结算或专业判断。请勿在反馈中发送真实患者身份信息。
+        </p>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <span>DRG/DIP 3.0 分组器</span>
+        <span>离线运行，用户数据不离开当前设备。</span>
+      </div>
+    </footer>
+  </body>
+</html>
