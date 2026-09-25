@@ -8,6 +8,7 @@
 - `drg-support/index.html`：帮助与支持
 - `drg-privacy/index.html`：隐私政策
 - `drg-legal.css`：页面共用样式
+- `favicon.svg`：页面图标
 
 ## GitHub Pages 地址
 
